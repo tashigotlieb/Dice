@@ -60,7 +60,7 @@ class Die //models one single dice cube
   void show()
   {
    noFill();
-    square(myX,myY,50);
+    rect(myX,myY,50,50);
    if(diceRoll == 1) {
      drawDot(25,25);
    } else if (diceRoll ==2) {
