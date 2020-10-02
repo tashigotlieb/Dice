@@ -54,7 +54,7 @@ class Die //models one single dice cube
  int myYextra =0;
   void drawDot(int myXextra,int myYextra) {
     fill(0);
-    circle(myX+myXextra,myY+myYextra,8);
+    ellipse(myX+myXextra,myY+myYextra,8,8);
 
 }
   void show()
